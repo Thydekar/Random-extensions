@@ -1,10 +1,14 @@
 {
   "manifest_version": 3,
-  "name": "Easy Search",
-  "version": "0.0.1",
-  "description": "Search the web through a popup",
+  "name": "Text - Speech",
+  "version": "0.0.2",
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+ "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
   },
   "permissions": [
     "activeTab"
